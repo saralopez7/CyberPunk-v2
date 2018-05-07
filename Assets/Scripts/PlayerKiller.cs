@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerKiller : MonoBehaviour {
 
@@ -8,7 +9,7 @@ public class PlayerKiller : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            Destroy(other.gameObject);
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }

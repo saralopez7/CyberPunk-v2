@@ -13,9 +13,6 @@ public class MainMenuController : MonoBehaviour {
     [Header("Options Panel")]
     public GameObject MainOptionsPanel;
     public GameObject StartGameOptionsPanel;
-    public GameObject GamePanel;
-    public GameObject ControlsPanel;
-    public GameObject GfxPanel;
     public GameObject LoadGamePanel;
 
     // Use this for initialization
@@ -65,9 +62,6 @@ public class MainMenuController : MonoBehaviour {
     public void openOptions_Game()
     {
         //enable respective panel
-        GamePanel.SetActive(true);
-        ControlsPanel.SetActive(false);
-        GfxPanel.SetActive(false);
         LoadGamePanel.SetActive(false);
 
         //play anim for opening game options panel
@@ -80,9 +74,6 @@ public class MainMenuController : MonoBehaviour {
     public void openOptions_Controls()
     {
         //enable respective panel
-        GamePanel.SetActive(false);
-        ControlsPanel.SetActive(true);
-        GfxPanel.SetActive(false);
         LoadGamePanel.SetActive(false);
 
         //play anim for opening game options panel
@@ -95,9 +86,6 @@ public class MainMenuController : MonoBehaviour {
     public void openOptions_Gfx()
     {
         //enable respective panel
-        GamePanel.SetActive(false);
-        ControlsPanel.SetActive(false);
-        GfxPanel.SetActive(true);
         LoadGamePanel.SetActive(false);
 
         //play anim for opening game options panel
@@ -111,9 +99,6 @@ public class MainMenuController : MonoBehaviour {
     public void openContinue_Load()
     {
         //enable respective panel
-        GamePanel.SetActive(false);
-        ControlsPanel.SetActive(false);
-        GfxPanel.SetActive(false);
         LoadGamePanel.SetActive(true);
 
         //play anim for opening game options panel
