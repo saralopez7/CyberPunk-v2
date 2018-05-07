@@ -43,9 +43,9 @@ The envrioment is rich if you look at the sky.
 
 ## YouTube links
 
-Spectator demo: ```url https://www.youtube.com/watch?v=fNFuBFGdahU ```
+Spectator demo: ```https://www.youtube.com/watch?v=fNFuBFGdahU ```
 
-Arena demo: ```url https://www.youtube.com/watch?v=KMKL2UuyPd0 ```
+Arena demo: ```https://www.youtube.com/watch?v=KMKL2UuyPd0 ```
 
 ## Credits
 ```url
